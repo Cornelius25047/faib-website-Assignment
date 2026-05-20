@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Insights | FAIB</title>
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="mainNav">
+    <a href="index.html" class="nav-logo">
+      <img src="faib-logo.png" alt="FAIB Logo" class="nav-logo-img">
+      <div class="nav-brand">FA<span>I</span>B</div>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="insights.html" class="active">Insights</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="feedback.html" class="nav-cta">Feedback</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" onclick="toggleMenu()" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="insights.html" class="active">Insights</a>
+    <a href="contact.html">Contact</a>
+    <a href="feedback.html">Feedback</a>
+  </div>
+
+  <div class="insights-hero">
+    <div class="tag">Knowledge &amp; Intelligence</div>
+    <h1>FAIB <span style="color:var(--accent)">INSIGHTS</span></h1>
+    <div class="divider"></div>
+    <p style="color:var(--muted);max-width:560px;line-height:1.8;">Perspectives, analysis, and intelligence briefings from the FAIB team on forensic analytics, cybersecurity, and investigative practice.</p>
+  </div>
+
+  <div class="section" style="padding-top:0">
+    <div class="insights-grid">
+      <div class="insight-card">
+        <div class="insight-meta">
+          <span class="insight-cat">Digital Forensics</span>
+          <span class="insight-dot"></span>
+          <span class="insight-date">April 2026</span>
+        </div>
+        <h3>THE ROLE OF DIGITAL EVIDENCE IN MODERN CORPORATE INVESTIGATIONS</h3>
+        <p>As organisations increasingly operate in digital environments, the nature of evidence in corporate investigations has fundamentally shifted. This briefing examines how digital forensics has become central to resolving disputes, detecting fraud, and supporting legal proceedings.</p>
+        <div class="insight-read">Read Briefing <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
+      </div>
+      <div class="insight-card">
+        <div class="insight-meta">
+          <span class="insight-cat">OSINT</span>
+          <span class="insight-dot"></span>
+          <span class="insight-date">March 2026</span>
+        </div>
+        <h3>OPEN-SOURCE INTELLIGENCE: WHAT YOUR DIGITAL FOOTPRINT REVEALS</h3>
+        <p>Every individual and organisation leaves traces across the digital landscape. OSINT analysis can reconstruct comprehensive profiles from publicly available data alone. Understanding your digital exposure is the first step to managing investigative risk.</p>
+        <div class="insight-read">Read Briefing <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
+      </div>
+      <div class="insight-card">
+        <div class="insight-meta">
+          <span class="insight-cat">Fraud Investigation</span>
+          <span class="insight-dot"></span>
+          <span class="insight-date">February 2026</span>
+        </div>
+        <h3>PROCUREMENT FRAUD IN BOTSWANA: PATTERNS AND INDICATORS</h3>
+        <p>Procurement fraud remains one of the most significant financial risks facing both public and private sector organisations in Botswana. This analysis examines common patterns, red flags, and the forensic approaches used to detect and investigate procurement irregularities.</p>
+        <div class="insight-read">Read Briefing <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
+      </div>
+      <div class="insight-card">
+        <div class="insight-meta">
+          <span class="insight-cat">Background Checks</span>
+          <span class="insight-dot"></span>
+          <span class="insight-date">January 2026</span>
+        </div>
+        <h3>WHY EMPLOYEE VETTING IS A BUSINESS IMPERATIVE IN 2026</h3>
+        <p>Negligent hiring exposes organisations to legal liability, reputational damage, and operational risk. This briefing outlines why structured background verification processes are no longer optional for responsible employers operating in today's environment.</p>
+        <div class="insight-read">Read Briefing <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
+      </div>
+      <div class="insight-card">
+        <div class="insight-meta">
+          <span class="insight-cat">Data Analytics</span>
+          <span class="insight-dot"></span>
+          <span class="insight-date">December 2025</span>
+        </div>
+        <h3>FROM DATA TO DECISION: THE ANALYTICS ADVANTAGE IN RISK MANAGEMENT</h3>
+        <p>Organisations that invest in data analytics capabilities gain a measurable advantage in identifying and mitigating risk. This piece explores how structured data analysis transforms raw information into intelligence that drives better decisions.</p>
+        <div class="insight-read">Read Briefing <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
+      </div>
+      <div class="insight-card">
+        <div class="insight-meta">
+          <span class="insight-cat">Intelligence</span>
+          <span class="insight-dot"></span>
+          <span class="insight-date">November 2025</span>
+        </div>
+        <h3>DUE DILIGENCE IN SOUTHERN AFRICA: A FORENSIC PERSPECTIVE</h3>
+        <p>Cross-border business in the SADC region presents unique due diligence challenges. This briefing offers a forensic practitioner's perspective on effective pre-transaction verification and the intelligence gaps that most standard due diligence processes miss.</p>
+        <div class="insight-read">Read Briefing <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-bottom" style="border-top:none;padding-top:0;">
+      <p>&copy; 2026 Forensic Analytics &amp; Intelligence Botswana (FAIB). All rights reserved.</p>
+      <div class="footer-badge">Francistown, Botswana</div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>
